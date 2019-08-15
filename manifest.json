@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "HackerRankDiary",
+  "version": "1.0",
+  "permissions": ["bookmarks", "tabs"],
+  "description": "Diary to help maintain a catalogue of helpful questions on hackerrank",
+
+  "icons": {
+    "48": "tintin.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.geeksforgeeks.org/*"],
+      "js": ["script.js"]
+    }
+  ]
+
+
+}
