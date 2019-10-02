@@ -21,7 +21,7 @@ var url = window.location.href;
 localStorage.setItem("key", "she");
 for( i = 0 ; i < appHere.length; i++){
   but = document.createElement("input");
-  but.type = "button";
+  but.type = "button"; //High My name is Pulkit Gupta, doing this for hactoberfest tshirt
   but.value = "save";
   but.onclick = function(){
   document.body.style.border = "5px solid red";
